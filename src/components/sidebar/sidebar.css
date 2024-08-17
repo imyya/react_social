@@ -1,0 +1,65 @@
+:root{
+    --primary-color: #355070;
+    --secondary-color: #6d597a;
+    --secondary1-color: #b56576;
+    --tertiary-color: #e56b6f;
+    --quater-color: #eaac8b;
+    --white: #fff;
+}
+
+.sidebar{
+    flex:3;
+    height: calc(100vh - 60px);
+}
+
+.sidebarwrapper{
+    padding: 20px;
+}
+
+.sidebarlist{
+display: flex;
+flex-direction: column;
+}
+
+.sidebarlistitem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebaricon{
+    margin-right: 10px;
+}
+
+.sidebarbutton{
+    width:8rem;
+    border:none;
+    height: 2rem;
+    border-radius: 0.3rem;
+    font-size:0.99rem;
+    cursor: pointer;
+}
+
+.sidebarfriendlist{
+    padding:0%;
+    margin:0;
+    list-style: none;    
+}
+.sidebarhr{
+    margin: 20px 0;
+    border: 1px solid gray;
+}
+.sidebarfriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.sidebarfriendimg{
+    width:2rem;
+    height:2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}

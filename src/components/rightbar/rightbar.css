@@ -1,0 +1,13 @@
+
+:root{
+    --primary-color: #355070;
+    --secondary-color: #6d597a;
+    --secondary-color: #b56576;
+    --tertiary-color: #e56b6f;
+    --quater-color: #eaac8b;
+    --white: #fff;
+}
+
+.rightbar{
+    flex:4.5;
+}
